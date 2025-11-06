@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -12,7 +13,7 @@ int main(int argc, char *argv[])
     
     printf("%s\n",str);
     
-    while (i<4){
+    while (str[i]!='\0'){
           printf("str[%i]=%c\n",i,str[i]);
           i++;
     }
